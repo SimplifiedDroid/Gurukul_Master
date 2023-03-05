@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/borders_color"
+    android:padding="5dp"
+    android:layout_margin="2.5dp">
+
+    <ImageView
+        android:id="@+id/details_student_iamge"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        app:srcCompat="@drawable/accounts" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/details_student_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SARAD BANSAL"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="@color/border"
+            android:padding="2.5dp"/>
+
+        <TextView
+            android:id="@+id/details_student_rollno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/border"
+            android:padding="2.5dp" />
+
+        <TextView
+            android:id="@+id/details_student_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7001218270"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/border"
+            android:padding="2.5dp" />
+    </LinearLayout>
+</LinearLayout>

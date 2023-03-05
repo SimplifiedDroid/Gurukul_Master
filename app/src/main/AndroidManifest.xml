@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="31">
+        <activity android:name=".activity.AddDocumentActivity" />
+        <activity android:name=".sub_activity.ExamPaperSub" />
+        <activity android:name=".sub_activity.HomeworkSubActivity" />
+        <activity android:name=".sub_activity.NotesSubActivity" />
+        <activity android:name=".sub_activity.LectureSubActivity" />
+        <activity android:name=".activity.ExamPaperDetailActivity" />
+        <activity android:name=".cards.ExamPaperCard" />
+        <activity android:name=".activity.HomeworkDetailsActivity" />
+        <activity android:name=".activity.NotesDetailActivity" />
+        <activity android:name=".cards.HomeworkCard" />
+        <activity android:name=".cards.NotesCard" />
+        <activity android:name=".activity.LectureDetailActivity" />
+        <activity android:name=".activity.DetailsClassActivity" />
+        <activity android:name=".activity.UpdateActivity" />
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".cards.LecturesCard" />
+        <activity android:name=".activity.AddClass" />
+        <activity android:name=".cards.ClassRoomCard" />
+        <activity android:name=".activity.TeacherHome" />
+        <activity android:name=".activity.TeacherLoginActivity" />
+        <activity android:name=".activity.ResetPassword" />
+        <activity android:name=".activity.ForgetPassword" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

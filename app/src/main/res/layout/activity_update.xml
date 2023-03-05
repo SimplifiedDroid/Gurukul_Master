@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/app_background_gradient"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context=".activity.UpdateActivity">
+
+        <TextView
+            android:id="@+id/textiew4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UPDATE INFO"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/borders_color"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/update_profile_add_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/update_profile_pic_add"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/women"
+                app:civ_border_width="4dp"
+                app:civ_border_color="#0930A5"
+                android:elevation="5dp"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="ADD PROFILE PICTURE"
+                android:textColor="@color/borders_color"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/update_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:drawableStart="@drawable/name"
+            android:drawablePadding="10dp"
+            android:hint="NAME"
+            android:textColorHint="@color/borders_color"
+            android:textColor="@color/borders_color"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_outline"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2.5dp"
+            android:layout_marginStart="2.5dp"
+            android:layout_marginEnd="2.5dp" />
+
+
+        <EditText
+            android:id="@+id/update_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:drawableStart="@drawable/password_icon"
+            android:drawablePadding="10dp"
+            android:hint="PASSWORD"
+            android:textColorHint="@color/borders_color"
+            android:textColor="@color/borders_color"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_outline"
+            android:layout_marginBottom="2.5dp"
+            android:layout_marginStart="2.5dp"
+            android:layout_marginEnd="2.5dp" />
+
+        <EditText
+            android:id="@+id/update_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:drawableStart="@drawable/password_icon"
+            android:drawablePadding="10dp"
+            android:hint="CONFIRM PASSWORD"
+            android:textColorHint="@color/borders_color"
+            android:textColor="@color/borders_color"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@drawable/box_outline"
+            android:layout_marginBottom="2.5dp"
+            android:layout_marginStart="2.5dp"
+            android:layout_marginEnd="2.5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/update_info_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="UPDATE"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginEnd="100dp"
+                android:textColor="@color/borders_color"
+                android:background="@drawable/my_custom_buttton_style" />
+        </LinearLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">GuruKul Master</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string-array name="classes">
+        <item name="1">class_1</item>
+        <item name="2">class_2</item>
+        <item name="3">class_3</item>
+        <item name="4">class_4</item>
+        <item name="5">class_5</item>
+        <item name="6">class_6</item>
+        <item name="1">class 1</item>
+        <item name="2">class 2</item>
+        <item name="3">class 3</item>
+        <item name="4">class 4</item>
+        <item name="5">class 5</item>
+        <item name="6">class 6</item>
+        <item name="1">class 1</item>
+        <item name="2">class 2</item>
+        <item name="3">class 3</item>
+        <item name="4">class 4</item>
+        <item name="5">class 5</item>
+        <item name="6">class 6</item>
+    </string-array>
+</resources>

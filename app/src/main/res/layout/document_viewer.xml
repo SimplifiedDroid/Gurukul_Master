@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@color/borders_color"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/document_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/notes" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:layout_marginStart="5dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/document_topic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reproduction"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/border"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/document_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10/10/2020"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/border"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/document_delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="REMOVE"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/borders_color"
+            android:layout_margin="7dp"
+            android:layout_gravity="start"
+            android:background="@drawable/my_custom_buttton_style"/>
+    </LinearLayout>
+</LinearLayout>

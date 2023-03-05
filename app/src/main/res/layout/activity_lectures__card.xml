@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/app_background_gradient"
+        tools:context=".cards.LecturesCard">
+
+        <TextView
+            android:id="@+id/dasda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LECTURES"
+            android:textSize="25sp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:layout_marginStart="15dp"
+            android:drawablePadding="10dp"
+            android:textColor="@color/borders_color" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/myclass_holder_lecture"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+</layout>

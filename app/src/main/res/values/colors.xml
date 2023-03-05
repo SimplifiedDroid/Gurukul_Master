@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#630FAC</color>
+    <color name="colorPrimaryDark">#101927</color>
+    <color name="colorAccent">#47057E</color>
+    <color name="border">#0C74F8</color>
+    <color name="btn_gradient_starting">#0AD3F7</color>
+    <color name="btn_gradient_ending">#E8019AFF</color>
+    <color name="gradient_starting">#17234B</color>
+    <color name="gradient_ending">#3893AF</color>
+    <color name="text">#ffffff</color>
+    <color name="yellow">#630FAC</color>
+    <color name="yellow1">#1F0FAC</color>
+    <color name="borders_color">#FFEB3B</color>
+    <color name="mtrl_textinput_default_box_stroke_color"
+        tools:override="true">#630FAC</color>
+</resources>
