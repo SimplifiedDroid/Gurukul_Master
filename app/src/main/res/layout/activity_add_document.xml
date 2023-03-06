@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:background="@drawable/app_background_gradient"
         android:orientation="vertical"
-        tools:context=".activity.AddDocumentActivity">
+        tools:context=".ui.activity.AddDocumentActivity">
 
 
         <androidx.constraintlayout.widget.ConstraintLayout

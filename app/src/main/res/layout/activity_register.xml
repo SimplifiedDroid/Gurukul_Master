@@ -14,7 +14,7 @@
         android:background="@drawable/app_background_gradient"
         android:orientation="vertical"
         android:padding="10dp"
-        tools:context=".activity.RegisterActivity">
+        tools:context=".ui.activity.RegisterActivity">
 
         <TextView
             android:id="@+id/textView4"

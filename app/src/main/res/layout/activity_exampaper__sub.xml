@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:background="@drawable/app_background_gradient"
         android:orientation="vertical"
-        tools:context=".sub_activity.ExamPaperSub">
+        tools:context=".ui.activity.sub_activity.ExamPaperSub">
 
 
         <TextView

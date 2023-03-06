@@ -12,7 +12,7 @@
         android:background="@drawable/app_background_gradient"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".activity.LectureDetailActivity">
+        tools:context=".ui.activity.LectureDetailActivity">
 
         <TextView
             android:id="@+id/class_number_lecture"

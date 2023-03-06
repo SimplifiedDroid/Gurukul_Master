@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:background="@drawable/app_background_gradient"
         android:layout_height="match_parent"
-        tools:context=".activity.TeacherLoginActivity">
+        tools:context=".ui.activity.TeacherLoginActivity">
 
 
         <ImageView

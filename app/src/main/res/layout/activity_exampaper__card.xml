@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:background="@drawable/app_background_gradient"
-        tools:context=".cards.ExamPaperCard">
+        tools:context=".ui.activity.cards.ExamPaperCard">
 
         <TextView
             android:id="@+id/homew"

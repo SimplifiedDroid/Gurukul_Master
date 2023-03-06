@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:background="@drawable/app_background_gradient"
-        tools:context=".cards.LecturesCard">
+        tools:context=".ui.activity.cards.LecturesCard">
 
         <TextView
             android:id="@+id/dasda"

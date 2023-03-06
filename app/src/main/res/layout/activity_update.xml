@@ -13,7 +13,7 @@
         android:background="@drawable/app_background_gradient"
         android:orientation="vertical"
         android:padding="10dp"
-        tools:context=".activity.UpdateActivity">
+        tools:context=".ui.activity.UpdateActivity">
 
         <TextView
             android:id="@+id/textiew4"
